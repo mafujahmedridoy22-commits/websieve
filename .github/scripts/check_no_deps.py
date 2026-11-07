@@ -1,4 +1,6 @@
-import ast, pathlib, sys
+import ast
+import pathlib
+import sys
 
 stdlib = sys.stdlib_module_names
 violations, guarded = [], []
